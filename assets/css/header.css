@@ -1,0 +1,82 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem 0;
+  background-image: url('../images/Header\ Background.png');
+  background-size: cover;
+  background-repeat: no-repeat; 
+
+}
+
+header h1 {
+  font-family: Luckiest Guy;
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  max-width: 313px;
+  margin-bottom: 1.5rem;
+}
+
+header p {
+  color: rgba(255, 255, 255, 1);
+  font-style: open-sans;
+  max-width: 757px;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+header button {
+  padding: .7rem 1.5rem;
+  border-radius: 28px;
+  border: none;
+  transition: .3s ease-in-out;
+}
+
+header button:nth-child(1) {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+header button:nth-child(2) {
+  background-color: rgba(35, 39, 42, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+header button:hover {
+  cursor: pointer;
+  background-color: tomato;
+  outline: 1px solid rgba(255, 255, 255, 1);
+}
+
+@media screen and (max-width: 450px) {
+  header {
+    background-position: 75%;
+    padding: 4rem 0;
+  }
+
+  header h1 {
+    font-size: 2.5rem;
+    align-self: baseline;
+    margin-left: 1.5rem;
+  }
+
+  header p {
+    align-self: baseline;
+    margin-left: 1.5rem;
+    text-align: left;
+  }
+
+  header #header-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 451px) and (max-width: 880px) {
+  header {
+    background-position: 20%;
+  }
+}
