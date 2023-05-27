@@ -1,0 +1,56 @@
+main #fourth-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem 0 0 0;
+  background: rgba(246, 246, 246, 1);
+}
+
+main #fourth-section #title {
+  font-family: Luckiest Guy;
+  text-transform: uppercase;
+  font-size: calc(0.9rem + 2vw);
+  margin-bottom: 1.5rem;
+  width: 40%;
+  text-align: center;
+}
+
+main #fourth-section #text {
+  text-align: center;
+  width: 65%;
+}
+
+@media screen and (max-width: 940px) {
+  main #fourth-section img {
+    width: calc(10rem + 30vw);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main #fourth-section {
+    align-items: baseline;
+    padding-left: 4rem;
+  }
+  main #fourth-section #title {
+    text-align: left;
+    width: 70%;
+    align-self: left;
+  }
+
+  main #fourth-section #text {
+    text-align: left;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  main #fourth-section img {
+    width: calc(10rem + 20vw);
+  }
+
+  main #fourth-section {
+    align-items: baseline;
+    padding-left: 3rem;
+  }
+}
