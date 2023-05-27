@@ -7,6 +7,9 @@ main #second-section {
 }
 
 main #second-section div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
   order: 0;
   width: 50%;
 }
