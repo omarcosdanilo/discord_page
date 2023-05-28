@@ -1,0 +1,7 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(35, 39, 42, 1);
+  height: 140px;
+}
