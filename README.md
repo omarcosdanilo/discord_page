@@ -15,7 +15,7 @@ HTML, CSS.
 
 
 ## Deploy
-[Ver deploy](https://omarcosdanilo.github.io/discord_page/)
+  <a href="https://omarcosdanilo.github.io/discord_page/" target="_blank">Ver deploy</a>
 
 
 
